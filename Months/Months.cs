@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Months
 {
@@ -11,10 +7,10 @@ namespace Months
         static void SayMonth(int month)
         {
             string[] monthNames = new string[]
-        { 
+            { 
             "January", "February", "March", "April", "May", "June",
             "July", "August", "September", "October", "November", "December"
-        };
+            };
             string monthName = monthNames[month - 1];
             Console.Write(monthName);
         }
